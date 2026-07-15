@@ -40,7 +40,7 @@ Then inside the WSL shell, install `btop` and `pipes-sh` through your distro's p
 
 1. Clone or download this repo
 2. Copy `wezterm/wezterm.lua` to `%USERPROFILE%\.wezterm.lua` (note the leading dot — rename it after copying)
-3. Copy `fastfetch/ascii.txt` to `%USERPROFILE%\ascii.txt` (can the ascii art if you want)
+3. Copy `fastfetch/ascii.txt` to `%USERPROFILE%\ascii.txt` (change the ascii art if you want)
 4. Find your PowerShell profile path by running `$PROFILE` in PowerShell 7, then copy the contents of `powershell/Microsoft.PowerShell_profile.ps1` into that file (create it if it doesn't exist)
 5. Open WezTerm — it should now pick up `.wezterm.lua` automatically. If the font doesn't render correctly, confirm `GohuFont 11 Nerd Font Mono` is installed and restart WezTerm
 6. Launch Cava separately (native Windows build) for the audio visualizer
